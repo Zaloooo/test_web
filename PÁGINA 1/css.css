@@ -1,0 +1,170 @@
+/*CABECERA*/
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbarra {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbarra a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*PRODUCTOS*/
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box {
+    height: 180px;
+    width: 270px;
+    background: #101010;
+    text-align: center;
+    border-radius: 15px;
+    margin: 80px;  
+ 
+}
+
+.box h3 {
+    font-size: 20px;
+    color: #9258b4;
+
+}
+
+.box p {
+    padding:  15px;
+    font-size: 20px;
+}
+
+.about {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #0f0f0f;
+}
+.sabermas {
+    color: #9258b4;
+}
+/*CONTACTO*/
+
+.contact {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.babout{
+background-color: #4c4c4c;
+
+}
+
+.tabla{
+
+    height: 700px;
+}
+
+h2{
+    color: white;
+}
+
+/*TABLAS*/
+
+.tabla1{
+    width: 60%;
+    align-items: center;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.tabla2{
+    width: 60%;
+    align-items: center;
+    border: 0;
+    background-color: rgb(219, 219, 219);
+}
+
+.tabla0{
+    width: 60%;
+    align-items: center;
+    border: 0;
+    background-color: rgb(255, 255, 255)
+}
+
+.precio{
+    color: red;
+}
+
+.tabla-precios{
+    background-color: white;
+    width: 40%;
+}
+
+
+
+/*FORMULARIO*/
+
+.form{
+
+    margin-top: 100px;
+}
+
+.formL{
+    color: #000000;
+}
